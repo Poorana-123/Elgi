@@ -1,0 +1,200 @@
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.final-cta {
+  width: 100%;
+  min-height: 570px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 90px 24px;
+
+  background: #f5f3ed;
+
+  color: #14202b;
+
+  border-top: 1px solid rgba(20, 32, 43, 0.07);
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.final-cta-inner {
+  width: 100%;
+  max-width: 850px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* =========================================================
+   LABEL
+========================================================= */
+
+.final-cta-label {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 8px 14px;
+
+  border: 1px solid rgba(20, 32, 43, 0.12);
+
+  border-radius: 100px;
+
+  background: #ffffff;
+
+  color: #65717b;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1.8px;
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.final-cta-inner h2 {
+  margin: 28px 0 0;
+
+  font-family:
+    "Space Grotesk",
+    "Manrope",
+    sans-serif;
+
+  font-size: clamp(52px, 7vw, 88px);
+
+  line-height: 0.96;
+
+  letter-spacing: -4px;
+
+  font-weight: 600;
+
+  color: #14202b;
+}
+
+.final-cta-inner h2 span {
+  color: #71808b;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.final-cta-inner p {
+  margin: 30px 0 28px;
+
+  color: #65717b;
+
+  font-size: 16px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.final-cta-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+
+  padding: 8px 9px 8px 24px;
+
+  border-radius: 100px;
+
+  background: #14202b;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.final-cta-button span {
+  width: 40px;
+  height: 40px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  background: #c8ff4d;
+
+  color: #14202b;
+
+  font-size: 18px;
+}
+
+.final-cta-button:hover {
+  background: #233442;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   SMALL TEXT
+========================================================= */
+
+.final-cta-inner small {
+  margin-top: 14px;
+
+  color: #89939a;
+
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .final-cta {
+    min-height: 520px;
+
+    padding: 70px 20px;
+  }
+
+  .final-cta-inner h2 {
+    font-size: 52px;
+
+    letter-spacing: -3px;
+  }
+
+  .final-cta-inner p {
+    font-size: 14px;
+  }
+
+  .final-cta-inner p br {
+    display: none;
+  }
+
+}

@@ -1,0 +1,225 @@
+/* =========================================================
+   HOME PAGE
+========================================================= */
+
+.home-page {
+  position: relative;
+
+  width: 100%;
+  min-width: 100%;
+
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  background: #0b0d0f;
+
+  color: #f5f2ea;
+
+  overflow-x: hidden;
+}
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+.home-page,
+.home-page * {
+  box-sizing: border-box;
+}
+
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  background: #0b0d0f;
+}
+
+
+/* =========================================================
+   SKILL EXCHANGE SECTION
+   FORCE FULL SCREEN WIDTH
+========================================================= */
+
+.home-page > .skill-exchange {
+
+  position: relative;
+
+  width: 100vw !important;
+
+  max-width: none !important;
+
+  min-width: 100vw;
+
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+
+  padding-left: 6vw;
+  padding-right: 6vw;
+
+  min-height: 100vh;
+  min-height: 100svh;
+
+  border-left: none !important;
+  border-right: none !important;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   IMPORTANT:
+   PREVENT CENTERED CONTAINER FROM SHRINKING SECTION
+========================================================= */
+
+.home-page > .skill-exchange > * {
+  max-width: none;
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.home-page .exchange-heading {
+  width: 100%;
+
+  max-width: 900px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   FIX HERO WORD VISIBILITY
+========================================================= */
+
+.home-page .exchange-heading h2 {
+
+  color: #f5f2ea !important;
+
+  opacity: 1 !important;
+
+  visibility: visible !important;
+
+  position: relative;
+
+  z-index: 5;
+}
+
+
+/* First line */
+
+.home-page .exchange-heading h2 {
+  text-shadow:
+    0 0 1px rgba(245, 242, 234, 0.15);
+}
+
+
+/* Highlighted second line */
+
+.home-page .exchange-heading h2 span {
+
+  color: #858a90 !important;
+
+  opacity: 1 !important;
+}
+
+
+/* =========================================================
+   EXCHANGE STAGE
+========================================================= */
+
+.home-page .exchange-stage {
+
+  width: 100%;
+
+  max-width: 1250px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* =========================================================
+   BOTTOM AREA
+========================================================= */
+
+.home-page .exchange-bottom {
+
+  width: 100%;
+
+  max-width: 1250px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* =========================================================
+   REMOVE POSSIBLE GLOBAL CONTAINER RESTRICTIONS
+========================================================= */
+
+.home-page section {
+  width: 100%;
+  max-width: none;
+}
+
+
+/* =========================================================
+   DESKTOP
+========================================================= */
+
+@media (min-width: 1400px) {
+
+  .home-page > .skill-exchange {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 850px) {
+
+  .home-page > .skill-exchange {
+
+    width: 100vw !important;
+
+    min-width: 100vw;
+
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 560px) {
+
+  .home-page > .skill-exchange {
+
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+}
